@@ -10,11 +10,12 @@ h1 {
   border: 5px solid blueviolet;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  /* flex-wrap: wrap; */
 }
 
 #container div {
-  width: 600px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
