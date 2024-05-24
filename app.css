@@ -30,9 +30,20 @@ div:nth-of-type(5) {
   /* flex-grow: 1; */
   flex-shrink: 2;
 }
-/* div:nth-of-type(3) {
-  align-self: flex-end;
+
+main {
+  width: 80%;
+  margin: auto;
+  border: 5px solid black;
+  height: 500px;
+  display: flex;
 }
-div:nth-of-type(5) {
-  align-self: flex-start;
-} */
+
+main .sidebar {
+  background-color: blue;
+  flex: 1 2 300px;
+}
+main .content {
+  background-color: cadetblue;
+  flex: 2 1 800px;
+}
